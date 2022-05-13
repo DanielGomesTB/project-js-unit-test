@@ -157,7 +157,7 @@ describe('10 - Implemente os casos de teste e a função `createMenu`', () => {
     objetoRetornado.order('coxinha');
     objetoRetornado.order('agua')
     objetoRetornado.order('coxinha')
-    expect(objetoRetornado.pay()).toEqual(27.06)
+    expect(objetoRetornado.pay()).toEqual('12.87')
     })
     // Agora faça o PASSO 4 no arquivo `src/restaurant.js`.
 });
